@@ -1,0 +1,27 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	width: 400px;
+	height: 600px;
+	margin: auto;
+}
+
+.screens {
+	display: grid;
+	grid-column: 1 / span 4;
+}
+
+.screensP {
+	border: 1px solid black;
+}
+
+#clear {
+	grid-column: 1 / span 4;
+}
+
